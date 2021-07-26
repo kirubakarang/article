@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.header {
+  font-size: 18px;
+  padding: 25px;
+  background-color: #12013a;
+  color: #40e0d0;
+}
+h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+.article {
+  font-size: 18px;
+  display: table;
+}
+.aside {
+  background-color: #d6d6d6;
+  width:180px;
+  color: #00008b;
+  display: table-cell;
+  vertical-align: top;
+}
+.aside ul {
+  padding-left: 20px;
+}
+.aside li {
+  list-style: none;
+  padding: 5px;
+}
+.aside a {
+  text-decoration: none;
+}
+.left{
+  padding-bottom:20px;
+}
+.right {
+  font-size: 18px;
+  padding: 25px;
+  background-color: #30d5c8;
+  color: #000;
+  white-space: nowrap;
+  font-weight: bolder;
+  display: table-cell;
+}
+.center {
+  margin: 30px;
+  margin-top: 15px;
+  padding: 30px;
+  display: table-cell;
+}
+.icon {
+  font-size: 30px;
+  padding-left: 10px;
+  float: right;
+  display: none;
+}
+.footer {
+  font-size: 18px;
+  padding: 10px;
+  background-color: #12013a;
+  text-indent: 10px;
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer ul {
+  padding-left: 0;
+}
+.footer li {
+  color: #fff;
+  padding-right: 10px;
+  border-right: 1px solid #fff;
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+}
+.footer li:last-child {
+  border-right: 0;
+}
+@media (min-width: 1600px){
+  .container{
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 600px) {
+  .header{
+   padding:37px;
+ }
+ .aside{
+   display: block;
+   width: 360px;
+ }
+ .aside li{
+   padding: 5px;
+ }
+ .aside ul{
+   padding: 30px;
+ }
+ .left ul{
+   margin: 0;
+ }
+ .center{
+  display: block;
+   padding: 5px;
+ }
+ .right{
+   display: block;
+   padding: 37px;
+ }
+ .mobile-hide {
+    display: none;
+ }
+  .icon {
+    color: #40e0d0;
+    font-size: 30px;
+    margin-top: 30px;
+    float: right;
+    display: block;
+ }
+  .footer ul {
+   padding: 15px;
+ }
+  .footer li {
+    text-align:left;
+    border-right: none;
+    padding: 5px;
+    display: block;
+ }
+}
+.left a {
+  color: #00f;
+}
+
